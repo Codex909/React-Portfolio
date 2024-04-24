@@ -1,0 +1,79 @@
+.footer {
+    margin: 5vh 10vw; /* Adjusted for responsiveness */
+    display: flex;
+    flex-direction: column;
+    gap: 3vw; /* Adjusted for responsiveness */
+}
+
+.footer-top-left img {
+    width: 30%; /* Adjusted for responsiveness */
+    max-width: 200px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Added to ensure responsiveness */
+}
+
+.footer-top-left {
+    font-size: min(4vw, 20px); /* Adjusted for responsiveness */
+    max-width: 90%; /* Adjusted for responsiveness */
+}
+
+.footer-top-right {
+    display: flex;
+    align-items: center;
+    gap: 3vw; /* Adjusted for responsiveness */
+    padding-top: 10px;
+}
+
+
+
+.footer-github {
+    font-size: min(4vw, 20px); /* Adjusted for responsiveness */
+    padding: 2vh 5vw; /* Adjusted for responsiveness */
+    border-radius: 50px;
+    background: linear-gradient(264deg, #b07530 -55.09%, #3a3a3a05 106.28%);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.footer-linkedin{
+font-size: min(4vw, 20px); /* Adjusted for responsiveness */
+    padding: 2vh 5vw; /* Adjusted for responsiveness */
+    border-radius: 50px;
+    background: linear-gradient(264deg, #295586 -55.09%, #726c6c05 106.28%);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+
+}
+.footer-linkedin a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer-linkedin:hover{
+    transform: scale(1.1);
+    border: 2px solid white;
+    transition: 0.3s;
+    
+}
+.footer-github:hover{
+    transform: scale(1.1);
+    border: 2px solid white;
+    transition: 0.3s;
+    
+}
+.footer-github a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Added to ensure responsiveness */
+    margin-bottom: 5vh; /* Adjusted for responsiveness */
+    font-size: min(4vw, 18px); /* Adjusted for responsiveness */
+}
+
